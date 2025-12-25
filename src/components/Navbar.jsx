@@ -70,8 +70,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-
-          {/* AUTH BUTTON */}
+
           {user ? (
             <button className="btn btn-danger btn-sm" onClick={logOut}>
               Logout
